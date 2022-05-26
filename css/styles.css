@@ -281,11 +281,39 @@ img {
 }
 /* Должности представителей нашей команды */
 .team-position {
+  margin-bottom: 16px;
   font-weight: 400;
   line-height: 1.19;
   font-size: 16px;
   text-align: center;
   color: var(--secondary-color);
+}
+/* Соцыальные сети представителей нашей команды */
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials-item:not(:last-child) {
+  margin-right: 10px;
+}
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  color: #afb1b8;
+  border-radius: 50%;
+}
+.socials-link:hover,
+.socials-link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.socials-icom {
+  fill: currentColor;
 }
 /* ------------------ Портфолио ------------------*/
 /* Кнопки фильтров из списка кнопок портфолио*/
