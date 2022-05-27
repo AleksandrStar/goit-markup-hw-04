@@ -315,6 +315,46 @@ img {
 .socials-icom {
   fill: currentColor;
 }
+/*-------------- Постоянные клиенти --------------*/
+.klient-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  line-height: 1.17;
+  font-size: 36px;
+  text-align: center;
+  color: var(--basic-color);
+}
+.klient-list {
+  display: flex;
+  justify-content: center;
+}
+.klient-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.klient-item:not(:last-child) {
+  margin-right: 30px;
+}
+.logo-klient {
+  fill: currentColor;
+}
+.klient-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  background-color: #ffffff;
+  color: #afb1b8;
+}
+.klient-item:hover,
+.klient-item:focus {
+  border: 1px solid #2196f3;
+}
+.logo-klient:hover,
+.logo-klient:focus {
+  color: #2196f3;
+}
 /* ------------------ Портфолио ------------------*/
 /* Кнопки фильтров из списка кнопок портфолио*/
 .portfolio-btn {
