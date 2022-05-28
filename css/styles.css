@@ -462,6 +462,7 @@ img {
 }
 .footer-logo {
   display: block;
+  width: 145px;
   margin-bottom: 20px;
   color: var(--logo-footer);
   font-family: var(--secondary-font);
@@ -489,6 +490,9 @@ img {
 .footer-office:hover,
 .footer-office:focus {
   color: var(--accent-color);
+}
+.footer-list {
+  width: 231px;
 }
 /* Соцыальные сети */
 .socials-footer {
