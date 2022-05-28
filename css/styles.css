@@ -204,6 +204,7 @@ img {
 }
 .priority-list {
   display: flex;
+  justify-content: center;
 }
 .priority-item {
   width: 270px;
@@ -218,6 +219,19 @@ img {
   font-size: 14px;
   color: var(--basic-color);
   text-transform: uppercase;
+}
+/* Иконки */
+.icon-priority {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.icon-priority:not(:last-child) {
+  margin-right: 30px;
 }
 /* Текстовый контент к приемуществам работы */
 .priority-text {
@@ -420,6 +434,8 @@ img {
 /* ------------------ Подвал ------------------ */
 /* Ссылка с логотипом футера*/
 .footer {
+  display: flex;
+  align-items: baseline;
   background-color: var(--dark-bg);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -456,4 +472,29 @@ img {
 .footer-office:hover,
 .footer-office:focus {
   color: var(--accent-color);
+}
+/* Соцыальные сети */
+.socials-footer {
+  display: flex;
+}
+.team-name-footer {
+  font-weight: 700;
+  line-height: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.socials-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 44px;
+  height: 44px;
+  color: #ffffff;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.socials-link-footer:hover,
+.socials-link-footer:focus {
+  background-color: #2196f3;
 }
