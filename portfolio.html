@@ -31,10 +31,18 @@
         </nav>
         <ul class="contacts-header-list list">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="email link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="email link"
+              ><svg class="icon-header" width="16" height="12">
+                <use href="./images/sprite.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li class="item">
-            <a href="tel:+380961111111" class="phone link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="phone link"
+              ><svg class="icon-header" width="10" height="16">
+                <use href="./images/sprite.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -56,17 +64,17 @@
           </ul>
           <!-- Элементы фильтруущиеся списком кнопок -->
           <ul class="portfolio-list list">
-            <a class="position-selection">
-              <li class="portfolio-item">
+            <li class="portfolio-item">
+              <a>
                 <img src="./images/img-P-1.jpg" alt="Ноутбук" width="370" height="294" />
                 <div class="portfolio-content-direction">
                   <h2 class="portfolio-content">Технокряк</h2>
                   <p class="portfolio-direction">Веб-сайт</p>
                 </div>
-              </li>
-            </a>
-            <a class="position-selection">
-              <li class="portfolio-item">
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a>
                 <img
                   src="./images/img-P-2.jpg"
                   alt="Постер на котором изображены два игрока-баскетболиста команд: Нового орлеана и Золотой звезды борящихся за мяч"
@@ -77,10 +85,10 @@
                   <h2 lang="en" class="portfolio-content">Постер New Orlean vs Golden Star</h2>
                   <p class="portfolio-direction">Дизайн</p>
                 </div>
-              </li>
-            </a>
-            <a class="position-selection">
-              <li class="portfolio-item">
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a>
                 <img
                   src="./images/img-P-3.jpg"
                   alt="Логотип ресторана морской кухни, на логотипе изображена рыба"
@@ -91,19 +99,19 @@
                   <h2 lang="en" class="portfolio-content">Ресторан Seafood</h2>
                   <p class="portfolio-direction">Приложение</p>
                 </div>
-              </li>
-            </a>
-            <a class="position-selection">
-              <li class="portfolio-item">
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a>
                 <img src="./images/img-P-4.jpg" alt="Наушники" width="370" height="294" />
                 <div class="portfolio-content-direction">
                   <h2 lang="en" class="portfolio-content">Проект Prime</h2>
                   <p class="portfolio-direction">Маркетинг</p>
                 </div>
-              </li>
-            </a>
-            <a class="position-selection">
-              <li class="portfolio-item">
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a>
                 <img
                   src="./images/img-P-5.jpg"
                   alt="Мужская и женская туалетная вода"
@@ -114,10 +122,10 @@
                   <h2 lang="en" class="portfolio-content">Проект Boxes</h2>
                   <p class="portfolio-direction">Приложение</p>
                 </div>
-              </li>
-            </a>
-            <a class="position-selection">
-              <li class="portfolio-item">
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a>
                 <img
                   src="./images/img-P-6.jpg"
                   alt="Монитор от компютера"
@@ -128,10 +136,10 @@
                   <h2 lang="en" class="portfolio-content">Inspiration has no Borders</h2>
                   <p class="portfolio-direction">Веб-сайт</p>
                 </div>
-              </li>
-            </a>
-            <a class="position-selection">
-              <li class="portfolio-item">
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a>
                 <img
                   src="./images/img-P-7.jpg"
                   alt="Журнал издательства Limited Edition"
@@ -142,19 +150,19 @@
                   <h2 lang="en" class="portfolio-content">Limited Edition</h2>
                   <p class="portfolio-direction">Дизайн</p>
                 </div>
-              </li>
-            </a>
-            <a class="position-selection">
-              <li class="portfolio-item">
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a>
                 <img src="./images/img-P-8.jpg" alt="Бирка LAB EL TAG" width="370" height="294" />
                 <div class="portfolio-content-direction">
                   <h2 lang="en" class="portfolio-content">Проект LAB</h2>
                   <p class="portfolio-direction">Маркетинг</p>
                 </div>
-              </li>
-            </a>
-            <a class="position-selection">
-              <li class="portfolio-item">
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a>
                 <img
                   src="./images/img-P-9.jpg"
                   alt="Ноутбук на котором открыта сатраница компании по развитию бизнеса"
@@ -165,35 +173,96 @@
                   <h2 lang="en" class="portfolio-content">Growing Business</h2>
                   <p class="portfolio-direction">Приложение</p>
                 </div>
-              </li>
-            </a>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
     </main>
     <!-- Подвал сайта -->
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="footer-logo link"><span class="accent">Web</span>Studio</a>
-        <address>
-          <ul class="footer-list list">
-            <li class="footer-item">
+      <div class="container contacts">
+        <div class="address-contacts">
+          <a href="./index.html" class="footer-logo link"><span class="accent">Web</span>Studio</a>
+          <address>
+            <ul class="footer-list list">
+              <li class="footer-item">
+                <a
+                  href="https://goo.gl/maps/5S5dMyk2Rb5R47MP8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="footer-office link"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-item">
+                <a href="mailto:info@devstudio.com" class="footer-contact link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-item">
+                <a href="tel:+380961111111" class="footer-contact link">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="socials-contacts">
+          <h3 class="team-name-footer">присоединяйтесь</h3>
+          <ul class="socials-footer list">
+            <li class="socials-item">
               <a
-                href="https://goo.gl/maps/5S5dMyk2Rb5R47MP8"
+                class="socials-link-footer link"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                class="footer-office link"
-                >г. Киев, пр-т Леси Украинки, 26</a
+                aria-label="иконка Instagram"
               >
+                <svg class="socials-icom" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-item">
-              <a href="mailto:info@devstudio.com" class="footer-contact link">info@devstudio.com</a>
+            <li class="socials-item">
+              <a
+                class="socials-link-footer link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка Twitter"
+              >
+                <svg class="socials-icom" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-item">
-              <a href="tel:+380961111111" class="footer-contact link">+38 096 111 11 11</a>
+            <li class="socials-item">
+              <a
+                class="socials-link-footer link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка Facebook"
+              >
+                <svg class="socials-icom" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link-footer link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка Linkedin"
+              >
+                <svg class="socials-icom" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
