@@ -118,7 +118,7 @@ img {
   margin-left: 50px;
 }
 .navigation-header-list .link {
-  padding: 32px 0px 32px;
+  padding: 32px 0px;
   font-weight: 500;
   line-height: 1.14;
   color: var(--basic-color);
@@ -133,8 +133,10 @@ img {
 }
 /* Список контактов */
 .contacts-header-list .email {
-  padding: 32px 0px 32px;
+  padding: 32px 0px;
   font-weight: 500;
+  display: flex;
+  align-items: center;
   line-height: 1.14;
   letter-spacing: 0.02em;
   font-style: normal;
@@ -246,9 +248,6 @@ img {
   background: #f5f4fa;
   border-radius: 4px;
 }
-.icon-priority:not(:last-child) {
-  margin-right: 30px;
-}
 /* Текстовый контент к приемуществам работы */
 .priority-text {
   font-weight: 400;
@@ -358,12 +357,6 @@ img {
   display: flex;
   justify-content: center;
 }
-.klient-item {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
 .klient-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -373,16 +366,17 @@ img {
 .klient-link {
   display: flex;
   justify-content: center;
-  margin-top: 16px;
+  align-items: center;
   background-color: #ffffff;
   color: #afb1b8;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
-.klient-item:hover,
-.klient-item:focus {
+.klient-link:hover,
+.klient-link:focus {
   border: 1px solid #2196f3;
-}
-.logo-klient:hover,
-.logo-klient:focus {
   color: #2196f3;
 }
 /* ------------------ Портфолио ------------------*/
@@ -448,10 +442,13 @@ img {
   color: var(--secondary-color);
 }
 /* выбор позиции в портфолио*/
-.portfolio-list .portfolio-item:hover,
-.portfolio-list .portfolio-item:focus {
+.portfolio-item:hover,
+.portfolio-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.portfolio-link {
+  text-decoration: none;
 }
 /* ------------------ Подвал ------------------ */
 /* Ссылка с логотипом футера */
@@ -503,6 +500,7 @@ img {
 /* Соцыальные сети */
 .socials-footer {
   display: flex;
+  margin-top: 20px;
 }
 .team-name-footer {
   font-weight: 700;
@@ -514,7 +512,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
   width: 44px;
   height: 44px;
   color: #ffffff;
