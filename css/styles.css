@@ -450,6 +450,12 @@ img {
 .portfolio-link {
   text-decoration: none;
 }
+/* Фокус Tab всеравно НЕ РАБОТАЕТ*/
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 /* ------------------ Подвал ------------------ */
 /* Ссылка с логотипом футера */
 .footer {
@@ -504,7 +510,7 @@ img {
 }
 .team-name-footer {
   font-weight: 700;
-  line-height: 16px;
+  line-height: 1.14px;
   color: #ffffff;
   text-transform: uppercase;
 }
